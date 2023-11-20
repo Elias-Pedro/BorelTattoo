@@ -1,0 +1,61 @@
+
+.shadow{
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.addComentario{
+  background-color: white;
+  width: 40%;
+  border-radius: 20px;
+  padding: 30px 20px;
+}
+.addComentario h1{
+  color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+.addComentario .cntr5Estrelas{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.addComentario .cntr5Estrelas svg{
+  width: 26px;
+  height: 26px;
+  margin-right: 15px;
+}
+.addComentario .cntr5Estrelas svg:last-child{
+  margin-right: 0px;
+}
+.addComentario input, textarea{
+  width: 100%;
+  background: none;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  outline-color: rgb(75, 75, 241);
+  color: rgba(0, 0, 0, 0.9);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+.addComentario input::placeholder, textarea::placeholder{
+  color: var(---colorOffW);
+  opacity: 0.9;
+}
+.addComentario button{
+  padding: 10px 40px;
+  color: white;
+  background-color: rgb(75, 75, 241);
+  border: 1px solid rgb(75, 75, 241);
+  border-radius: 4px;
+}
+.addComentario button:hover{
+  background-color: rgb(48, 48, 207);
+}

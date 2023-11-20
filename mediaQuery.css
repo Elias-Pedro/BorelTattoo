@@ -1,0 +1,216 @@
+@media (max-width: 1060px) {
+    .boxItensCarrossel .itensCarrossel:last-child{
+        display: none;
+    }
+    .itensCarrossel {
+        width: calc(50% - 10px);
+    }
+    .cntrArtistas {
+        padding: 40px 50px;
+    }
+    .boxArtistas p {
+        font-size: 15px;
+    }
+    .cntrH2Enfeite img {
+        max-width: 30%;
+        width: 200px;
+    }
+}
+
+@media (max-width: 1000px){
+    .cntrArtistas {
+        padding: 40px 20px;
+    }
+    .boxArtistas {
+        padding: 10px;
+    }
+    .boxArtistas img {
+        margin-right: 20px;
+    }
+    .cntrHome img {
+        margin: 10px;
+        margin-top: 0px;
+        width: 450px;
+    }
+    .cntrHome {
+        justify-content: flex-start;
+        min-height: fit-content !important;
+    }
+    .cntrHome button {
+        padding: 16px;
+        font-size: 16px;
+    }
+    main video {
+        top: 85px;
+    }
+    .cntrBtn, .cntrHorarios{
+        width: calc(50% - 10px);
+    }
+    .cntrBtn button, .cntrHorarios span{
+        width: 100%;
+    }
+    .cntrHorarios{
+        margin-left: 30px;
+    }
+    .cntrH2Enfeite {
+        padding: 50px 15px;
+    }
+
+
+}
+
+@media (max-width: 960px){
+    .addComentario {
+        width: 50%;
+    }
+}
+
+@media (max-width: 860px){
+    .cntrCarrossel {
+        padding: 10px 20px;
+    }
+}
+
+
+@media (max-width: 800px){
+    .cntrH2Enfeite h2 {
+        font-size: 30px;
+    }
+
+    .boxArtistas img {
+        width: 400px;
+    }
+    .btnAbrirMenu{
+        display: flex;
+        padding: 20px;
+        cursor: pointer;
+    }
+    .btnFecharMenu{
+        padding: 20px;
+        cursor: pointer;
+    }
+    .btnAbrirMenu svg, .btnFecharMenu svg{
+        width: 20px;
+        height: 20px;
+    }
+    header ul {
+        display: none;
+    }
+    video{
+        display: none;
+    }
+}
+@media (max-width: 800px){
+    .addComentario {
+        width: 70%;
+    }
+}
+@media (min-width: 800px){     /* MINIMO */
+    .btnAbrirMenu,.btnFecharMenu{
+        display: none !important;
+    }
+    .itemsMenu, .logoHeader{
+        display: flex !important;
+    }
+}
+
+
+@media (max-width: 750px){
+    .boxArtistas {
+        flex-direction: column;
+        padding: 30px;
+    }
+    .cntrArtistas {
+        padding: 40px 50px;
+    }
+    .boxArtistas img {
+        margin-right: 0px;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    .boxArtistas:nth-child(2) {
+        flex-direction: column !important;
+    }
+    .boxArtistas:nth-child(2) img {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+    .cntrArtistas .boxArtistas:nth-child(2) p {
+        padding-left: 0px;
+    }
+}
+@media (max-width: 750px){
+    .cntrHome img {
+        margin: 60px;
+        margin-top: 60px;
+        width: 400px;
+    }
+    .boxItensCarrossel .itensCarrossel:nth-child(2) {
+        display: none;
+    }
+    .itensCarrossel {
+        width: 100%;
+    }
+    .cntrContatoInfos {
+        width: 90%;
+    }
+    .cntrBtn, .cntrHorarios {
+        width: 50%;
+    }
+    .cntrEndereco p {
+        padding: 15px;
+        font-size: 14px;
+    }
+    .boxArtistas strong, .cntrH2Enfeite h2 {
+        font-size: 25px;
+    }
+    .cntrH2Enfeite img {
+        width: 170px;
+    }
+}
+@media (max-width: 666px){
+    .cntrVerMaisComentario {
+        padding: 10px 40px;
+    }
+    .cntrHome > div > p {
+        margin-left: 30px;
+        font-size: 14px;
+    }
+}
+@media (max-width: 600px){
+    .cntrHome > div {
+        align-items: flex-end;
+        flex-direction: column;
+    }
+    .cntrHome > div > p {
+        margin-left: 0px;
+        padding: 0px 10px 10px 0px;
+        font-size: 14px;
+    }
+}
+@media (max-width: 570px){
+    .cntrVerMaisComentario {
+        padding: 10px 20px;
+    }
+    .cntrVerMaisComentario *{
+        font-size: 14px !important;
+    }
+    .cntrH2Enfeite img {
+        width: 100px;
+    }
+    header li {
+        margin: 0px 1px;
+        padding: 10px 12px;
+    }
+    .addComentario {
+        width: 80%;
+    }
+}
+@media (max-width: 550px){
+    .boxArtistas {
+        padding: 20px;
+    }
+    .cntrArtistas {
+        padding: 0px 20px;
+    }
+}
