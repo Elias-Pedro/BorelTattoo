@@ -66,7 +66,7 @@
 }
 @media (max-width: 900px){
     header img{
-        width: 200px;
+        width: 150px;
     }
 }
 
@@ -104,11 +104,10 @@
     video{
         display: none;
     }
-}
-@media (max-width: 800px){
     .addComentario {
         width: 70%;
     }
+
 }
 @media (min-width: 800px){     /* MINIMO */
     .btnAbrirMenu,.btnFecharMenu{
@@ -191,11 +190,11 @@
         display: none;
     }
     .cntrVerMaisComentario {
-        flex-direction: column;
+        flex-direction: column-reverse;
         padding: 0px 40px;
     }
     .cntrVerMaisComentario a:first-child {
-        margin-bottom: 14px;
+        margin-top: 14px;
     }
     .cntrContatoInfos {
         flex-direction: column-reverse;
