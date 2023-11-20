@@ -275,6 +275,9 @@ main video{
 .cntrVerMaisComentario a:first-child{
     color: var(---colorDestaque1);
 }
+.quebraLinha{
+    display: none;
+}
 .cntrVerMaisComentario button{
     color: var(---colorOffW);
     border-radius: 4px;

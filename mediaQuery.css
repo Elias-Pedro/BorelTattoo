@@ -189,13 +189,6 @@
     .cntrHome > div > p {
         display: none;
     }
-    .cntrVerMaisComentario {
-        flex-direction: column-reverse;
-        padding: 0px 40px;
-    }
-    .cntrVerMaisComentario a:first-child {
-        margin-top: 14px;
-    }
     .cntrContatoInfos {
         flex-direction: column-reverse;
     }
@@ -208,6 +201,17 @@
     }
     .cntrBtn button, .cntrHorarios span {
         border-bottom: 1px solid rgb(170 170 170 / 10%);
+    }
+    .cntrVerMaisComentario a:first-child{
+        text-decoration: none;
+        line-height: 1.3em;
+    }
+    .cntrVerMaisComentario a:first-child span{
+        text-decoration: underline;
+        margin-bottom: 10px;
+    }
+    .quebraLinha{
+        display: block;
     }
 }
 @media (max-width: 570px){
