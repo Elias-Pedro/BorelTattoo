@@ -270,7 +270,8 @@ main video{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 30px 80px;
+    padding: 10px 80px;
+    margin-bottom: 70px;
 }
 .cntrVerMaisComentario a:first-child{
     color: var(---colorDestaque1);
