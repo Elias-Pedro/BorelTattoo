@@ -64,6 +64,11 @@
         width: 50%;
     }
 }
+@media (max-width: 900px){
+    header img{
+        width: 200px;
+    }
+}
 
 @media (max-width: 860px){
     .cntrCarrossel {
@@ -183,9 +188,27 @@
         flex-direction: column;
     }
     .cntrHome > div > p {
+        display: none;
+    }
+    .cntrVerMaisComentario {
+        flex-direction: column;
+        padding: 0px 40px;
+    }
+    .cntrVerMaisComentario a:first-child {
+        margin-bottom: 14px;
+    }
+    .cntrContatoInfos {
+        flex-direction: column-reverse;
+    }
+    .cntrHorarios {
         margin-left: 0px;
-        padding: 0px 10px 10px 0px;
-        font-size: 14px;
+    }
+    .cntrBtn, .cntrHorarios {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+    .cntrBtn button, .cntrHorarios span {
+        border-bottom: 1px solid rgb(170 170 170 / 10%);
     }
 }
 @media (max-width: 570px){

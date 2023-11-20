@@ -222,13 +222,14 @@ main video{
     align-items: center;
     justify-content: space-between;
     padding: 10px 80px;
-    margin: 30px 0px;
+    margin-bottom: 30px;
 }
 .cntrCarrossel svg{
     width: 100px;
     height: 100px;
     fill: var(---colorOffW);
     cursor: pointer;
+    opacity: .4;
 }
 .cntrCarrossel svg:first-child{
     transform: scaleX(-1);
@@ -247,7 +248,7 @@ main video{
 }
 .itensCarrossel p:first-child{
     color: var(---colorDestaque1);
-    font-size: 26px;
+    font-size: 20px;
     font-weight: bold;
 }
 .itensCarrossel .cntr5Estrelas{
@@ -257,6 +258,8 @@ main video{
 .itensCarrossel .cntr5Estrelas svg{
     width: 15px;
     height: 15px;
+    opacity: 1;
+
 }
 .itensCarrossel p:last-child{
     color: var(---colorOffW);
@@ -334,7 +337,8 @@ main video{
     width: 80%;
     align-items: center;
     justify-content: space-between;
-    margin: 10px 0px;
+    margin: 5px 0px;
+    padding: 5px 0px;
 }
 .cntrHorarios p{
     font-size: 16px;
